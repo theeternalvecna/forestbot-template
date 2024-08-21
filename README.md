@@ -1,4 +1,4 @@
-# basic setup
+ # basic setup
 
 1. get a database, register a number and upload it
 2. git commit
