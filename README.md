@@ -17,7 +17,7 @@ grab a number, currently at <https://signal.me/#p/+12185009004>
 to save the captcha, you can run 
 
 ```bash
-git clone https://github.com/forestcontact/message-in-a-bottle
+git clone https://github.com/theeternalvecna/message-in-a-bottle
 cd message-in-a-bottle
 cp 00-signal-captcha.desktop /usr/share/applications/
 cp save_signal_captcha /opt
@@ -36,7 +36,7 @@ DATABASE_URL=postgres://postgres:<password>@localhost:15432 poetry run python -m
 
 # setting up payments
 
-1. clone https://github.com/mobilecoinofficial/full-service-cert-pinning and run ./create_app.sh
+1. clone https://github.com/theeternalvecna/full-service-cert-pinning and run ./create_app.sh
 2. append the contents of `<full service app name>.client_secrets` to `dev_secrets` and run `cat dev_secrets | fly secrets import`
 3. add `FULL_SERVICE_URL=https://<full service app name>.fly.dev/wallet` to fly.toml under [env]
 4. message your bot `fsr create_account name mybot` (make sure you've set ADMIN=<your number> in secrets for this to work)
